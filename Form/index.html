@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY-FORM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"></link>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <script src="./survey.js" ></script> -->
+    <form class="form">
+        <h5 class="titles" >Name </h5>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+            <label class="label" >First</label>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+            <label class="label" >Last</label>  
+        </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <H5 class="titles">Email</H5>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" >
+            </div>
+        </div>
+        <div class="rating"> 
+            <h5 class="titles" >Your Experience</h5>  
+            <div class="stars">
+                <a>⭐</a>
+                <a>⭐</a>
+                <a>⭐</a>
+                <a>⭐</a>
+                <a>⭐</a>
+            </div>
+            <h6>Overall, how would you rate you experience with us?</h6>
+            </div>
+        <div class="satisfiedtable">
+            <h5 class="titles" >How satified are you with</h5> 
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"> </th>
+                    <th scope="col">Very Unsatisfied</th>
+                    <th scope="col">Unsatisfied</th>
+                    <th scope="col">Neutral</th>
+                    <th scope="col">Satified</th>
+                    <th scope="col">Very Satified</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Purchase</th>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" >Service</th>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row"  >Company Overall</th>
+                    <td style="text-align:center"><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td style="text-align:center"><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td style="text-align:center"><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td style="text-align:center"><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td style="text-align:center"><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="likelytable">
+            <h5 class="titles" >How likely are you to</h5> 
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Very Unlikely</th>
+                    <th scope="col">Unlikely</th>
+                    <th scope="col">Neutral</th>
+                    <th scope="col">Likely</th>
+                    <th scope="col">Very Likely</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Buy from us again</th>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" >Recommend our product to others</th>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row"  >Recommend our company to others</th>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions"  ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions"  ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                    <td><input class="form-check-input" type="radio" name="inlineRadioOptions" ></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="commentbox">
+            <h5 class="titles">Additional comments or suggestions</h5>
+            <textarea class="textfeild" name="comment" form="usrform"></textarea>
+        </div>
+    </form>
+    <button class="submitbutton" type="submit">Submit</button>
+    <script src="./script.js"></script>
+</body>
+</html>
